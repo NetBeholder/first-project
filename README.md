@@ -19,3 +19,12 @@ git status
 ```
 ## Синхронизация с сервером
 [См. документацию](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
