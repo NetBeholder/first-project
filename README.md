@@ -28,9 +28,11 @@ git status
 ```
 
 ```mermaid
+graph LR;
 untracked -- "git add" --> staged;
   staged -- "git commit" --> tracked/comitted;
   tracked/comitted -- "file changes" --> tracked/modified;
+  tracked/modified -- "git add" --> staged
 
 %% стрелка без текста для примера: 
   A --> B;
