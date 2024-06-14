@@ -23,14 +23,14 @@ git status
 # Практическая работа №2
 ## Статус файлов
 
-```
+```bash
 git status
 ```
 
 ```mermaid
 untracked -- "git add" --> staged;
   staged    -- "git commit"     --> tracked/comitted;
-    tracked/comitted -- "any change files" --> tracked/modified
+  tracked/comitted -- "any change files" --> tracked/modified;
 
 
 %% стрелка без текста для примера: 
