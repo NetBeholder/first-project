@@ -29,7 +29,7 @@ git status
 
 ```mermaid
 untracked -- "git add" --> staged;
-  staged    -- "git commit"     --> tracked/comitted;
+  staged -- "git commit" --> tracked/comitted;
   tracked/comitted -- "any change files" --> tracked/modified;
 
 
