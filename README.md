@@ -1,5 +1,5 @@
 # Практическая работа №1
-# Автор: (Sergey Salakhov)[#https://github.com/NetBeholder]
+# Автор: [Sergey Salakhov](https://github.com/NetBeholder)
 # Мини-шпаргалка по Git
 ## Создание локального репозитория
 ```bash
@@ -18,4 +18,4 @@ git commit -m 'initial commit'
 git status
 ```
 ## Синхронизация с сервером
-(См. документацию)[#https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories]
+[См. документацию](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
