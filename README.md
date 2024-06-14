@@ -20,10 +20,18 @@ git status
 ## Синхронизация с сервером
 [См. документацию](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 
+# Практическая работа №2
+## Статус файлов
+
+```
+git status
+```
+
 ```mermaid
-graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
+untracked -- "git add" --> staged;
+  staged    -- "git commit"     --> tracked/comitted;
+    tracked/comitted -- "any change files" --> tracked/modified
+
 
 %% стрелка без текста для примера: 
   A --> B;
